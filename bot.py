@@ -41,7 +41,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Environment variables
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "PASTE_YOUR_TOKEN_HERE"
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8561650202:AAE_N9m_-BzOw9k1p3GEJoxMKJ7AqW2UVBs"
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").rstrip("/")
 PORT = int(os.environ.get("PORT", 8080))
 WEBHOOK_PATH = os.environ.get("WEBHOOK_PATH", "/webhook")
@@ -326,3 +326,4 @@ def set_webhook_endpoint():
     
     try:
         webhook
+

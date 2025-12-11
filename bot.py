@@ -32,7 +32,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "PASTE_YOUR_TOKEN_HERE"
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8561650202:AAE_N9m_-BzOw9k1p3GEJoxMKJ7AqW2UVBs"
 
 # watched: map user_id -> display (username or id)
 watched: Dict[int, str] = {}
@@ -207,3 +207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
